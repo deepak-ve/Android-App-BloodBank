@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/llforcllist"
+    android:padding="5dp"
+    >
+
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fbece7"
+        android:padding="1dp"
+        >
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="#0064b7">
+
+
+            <LinearLayout
+                android:id="@+id/e1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name :"
+                    android:textSize="40px"
+                    android:textStyle="normal|italic|bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/client_name"
+                    android:text="fdfsdf"
+                    android:textStyle="normal|italic"
+                    android:textSize="40px"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_below="@+id/e1"
+                android:id="@+id/e2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bloodgroup :"
+                    android:textStyle="italic|bold"
+                    android:textSize="40px"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/client_bloodgroup"
+                    android:text="fdfsdf"
+
+                    android:textStyle="normal|italic"
+                    android:textSize="40px"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_below="@+id/e2"
+                android:id="@+id/e3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email id :"
+                    android:textStyle="normal|italic|bold"
+                    android:textSize="40px"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/client_email"
+                    android:text="fdfsdf"
+
+                    android:textStyle="normal|italic"
+                    android:textSize="40px"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_below="@+id/e3"
+                android:id="@+id/e4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age :"
+                    android:textStyle="normal|italic|bold"
+                    android:textSize="40px"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/client_age"
+                    android:text="fdfsdf"
+
+                    android:textStyle="normal|italic"
+                    android:textSize="40px"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_below="@+id/e4"
+                android:id="@+id/e5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adresss :"
+                    android:textStyle="normal|italic|bold"
+                    android:textSize="40px"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/client_address"
+                    android:text="fdfsdf"
+
+                    android:textStyle="normal|italic"
+                    android:textSize="40px"
+                    />
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+    </FrameLayout>
+</FrameLayout>

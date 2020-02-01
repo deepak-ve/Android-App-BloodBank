@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="#15aad8"
+    >
+    <Button
+    android:id="@+id/register"
+    android:text="Register Donor"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="30dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:textSize="50px"
+    android:textStyle="normal|italic"
+    android:background="#0064b7"
+    android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/viewdata"
+        android:text="View Blood Availability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="50px"
+        android:textStyle="normal|italic"
+        android:background="#0064b7"
+        android:textAllCaps="false" />
+
+</LinearLayout>
